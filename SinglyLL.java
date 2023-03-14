@@ -14,6 +14,7 @@ public class SinglyLL {
     }
 
     public void printLL() {
+
         Node current = head;
         while (current != null) {
             System.out.print(current.data + "---");
