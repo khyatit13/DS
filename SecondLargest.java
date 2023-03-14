@@ -1,4 +1,7 @@
 public class SecondLargest {
+    
+ 
+
 
     public int secondinArray(int[] arr) {
         int max = Integer.MIN_VALUE;
@@ -19,9 +22,15 @@ public class SecondLargest {
 
     }
 
+ 
+    
+
     public static void main(String[] args) {
-        int arr[] = { 4, 5, 2, 1, 6, 8, 11, 99, 88 };
+    
+        int arr[] = { 4, 5, 2, 1, 6, 8, 10 };
+
         SecondLargest sl = new SecondLargest();
+
         System.out.println(sl.secondinArray(arr));
 
     }
